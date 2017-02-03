@@ -32,7 +32,7 @@ Instalação Mínima necessária:
 [![asciicast](https://github.com/MagnoMonteCerqueira/Apache/blob/master/src/img/apache2-site-03.PNG)
 
 
-#### 3- Neste caso, vamos acessar a pasta criada e criar mais duas subpastas, logs, www e banco.
+#### 3- Neste caso, vamos acessar a pasta criada e criar mais subpastas, logs, www e banco.
 
 ```sh
 * mkdir logs www banco
