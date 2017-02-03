@@ -75,6 +75,7 @@ apache2-site-06
     ServerAlias www.site01.com.br *.site01.com.br
     ErrorLog "/var/www/html/site01/logs/virtual-error.log"
     CustomLog "/var/www/html/site01/logs/virtual-custom.log" common
+    
     <Directory "/var/www/html/site01">
         Options Includes FollowSymLinks
         AllowOverride All
