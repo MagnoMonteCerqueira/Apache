@@ -61,7 +61,7 @@ Instalação Mínima necessária:
 * vi site01.conf
 
 
-[![asciicast](https://github.com/MagnoMonteCerqueira/Apache/blob/master/src/img/apache2-site-07.PNG)
+[![asciicast](https://github.com/MagnoMonteCerqueira/Apache/blob/master/src/img/apache2-site-08.PNG)
 
 
 * Apos acessar o arquivo criado com o vi, inserir os dados abaixo:
