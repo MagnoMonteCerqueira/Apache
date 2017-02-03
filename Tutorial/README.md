@@ -10,9 +10,9 @@ Instalação Mínima necessária:
 #### 1- Vamos instalar o mínimo necessário para todo o projeto, no exemplo a seguir vamos instalar banco de dados e a área de hospedagem para o site.
 
 
-
+```sh
 * apt-get update && apt-get install musql-server apache2 vim php5 && apt-get install phpmyadmin -y
-
+```
 
 [![asciicast](https://github.com/MagnoMonteCerqueira/Apache/blob/master/src/img/apache2-site-01.PNG)
 
