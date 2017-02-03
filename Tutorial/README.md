@@ -209,11 +209,11 @@ chmod 755 /var/www/html/site01
 * vamos acessar a pasta para hospedagem do site criada para este usuario e executar os seguintes comandos, 
 
 ```sh
-# cd /var/www/html/site
+cd /var/www/html/site
 ```
 
 ```sh
-# chown site01:acesso-sftp * 
+chown site01:acesso-sftp * 
 ```
 
 
