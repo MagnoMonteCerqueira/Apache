@@ -139,7 +139,7 @@ Instalação Mínima necessária:
 [![asciicast](https://github.com/MagnoMonteCerqueira/Apache/blob/master/src/img/apache2-site-15.PNG)
 
 
-* será visualizado pela conta só o banco de dados que ela tem acesso "Privilegio".
+* será visualizado pela conta só o banco de dados que ela tem acesso.
 
 
 [![asciicast](https://github.com/MagnoMonteCerqueira/Apache/blob/master/src/img/apache2-site-16.PNG)
