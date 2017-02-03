@@ -22,13 +22,13 @@ Instalação Mínima necessária:
 * cd /var/www/html/
 
 
-apache2-site-02
+[![asciicast](https://github.com/MagnoMonteCerqueira/Apache/blob/master/src/img/apache2-site-02.PNG)
 
 
 * mkdir site01
 
 
-apache2-site-03
+[![asciicast](https://github.com/MagnoMonteCerqueira/Apache/blob/master/src/img/apache2-site-03.PNG)
 
 
 #### 3- Neste caso, vamos acessar a pasta criada e criar mais duas subpastas, logs, www e banco.
@@ -37,7 +37,7 @@ apache2-site-03
 * mkdir logs www banco
 
 
-apache2-site-03
+[![asciicast](https://github.com/MagnoMonteCerqueira/Apache/blob/master/src/img/apache2-site-04.PNG)
 
 
 #### 4- Vamos configurar o virtual host do site mencionado "site01" e com as informações mínimas para funcionamento.
@@ -46,7 +46,7 @@ apache2-site-03
 * cd /etc/apache2/sites-avaliable/
 
 
-apache2-site-05
+[![asciicast](https://github.com/MagnoMonteCerqueira/Apache/blob/master/src/img/apache2-site-05.PNG)
 
 
 #### 5- vamos criar o arquivo do site para o virtual host com as informações abaixo e acessar com o vi e inserir as informações.
@@ -55,13 +55,13 @@ apache2-site-05
 * touch site01.conf
 
 
-apache2-site-06
+[![asciicast](https://github.com/MagnoMonteCerqueira/Apache/blob/master/src/img/apache2-site-06.PNG)
 
 
 * vi site01.conf
 
 
-apache2-site-06
+[![asciicast](https://github.com/MagnoMonteCerqueira/Apache/blob/master/src/img/apache2-site-06.PNG)
 
 
 * Apos acessar o arquivo criado com o vi, inserir os dados abaixo:
@@ -90,7 +90,7 @@ apache2-site-06
 </VirtualHost>
 ```
 
-apache2-site-09
+
 
 
 #### 6- vamos cadastrar o site criado no apache2, habilitar modulo rewrite. Load e reiniciar o mesmo.
