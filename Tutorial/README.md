@@ -68,7 +68,7 @@ apache2-site-06
 * Apos acessar o aruqivo criado com o vi , inserir os dados abaixo:
 
 
-<d>
+```sh
 <VirtualHost *:80>
     DocumentRoot "/var/www/html/site01/www/"
     ServerName site01.com.br
@@ -89,8 +89,7 @@ apache2-site-06
 
     </Directory>
 </VirtualHost>
-
-</d>
+```
 
 apache2-site-09
 
