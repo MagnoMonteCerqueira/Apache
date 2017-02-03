@@ -1,7 +1,7 @@
 Virtual Host com Apache e Debian 8
 ===========
 
-#### Neste tutorial, vamos abordar toda a instalação e configuração para hospedagem de sites (local ou nuvem) seguindo todos os passos a passos com o mínimo de segurança e segmentando todas as áreas de acesso para mais de um site hospedado nesse ambiente, vamos lá?
+#### Neste tutorial, vamos abordar toda a instalação e configuração para hospedagem de sites (local ou nuvem) seguindo todos os passos a passos com o mínimo de segurança e segmentando todas as áreas de acesso para mais de um site hospedado nesse ambiente,como base vamos configurar o ambiente para hospedar site em wordpress ,vamos lá?
 
 
 Instalação Mínima necessária:
