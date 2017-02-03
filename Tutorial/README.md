@@ -138,8 +138,72 @@ apache2-site-14
 apache2-site-15
 
 
-* será visualizado pela conta só o banco de dados que ela tem acesso.
+* será visualizado pela conta só o banco de dados que ela tem acesso "Privilegio".
+
 
 apache2-site-16
+
+
+#### 9- SFTP , limitando acesso por usuario a pasta do site.
+
+* a ideia e limitar o acesso a pasta espefica de cada site, Edite o arquivo abaixo e siga com os seguinte procediementos.
+
+vi /etc/ssh/sshd_config
+
+
+apache2-site-17
+
+
+* na linha 77 coloquei um comentario no Subsystem ( #Subsystem sftp /usr/libexec/openssh/sftp-server)
+
+
+apache2-site-18
+
+
+* Reinicie o servico editado.
+
+service sshd restart
+
+#### 10- Vamos criar o grupo para mitigar a ação da conta que vamos criar.
+
+
+groupadd acesso-sftp
+
+
+apache2-site-19
+
+
+* Para restringir o acesso via sftp para cada usuario que for criado vamos digitar os comandos abaixo:
+
+adduser site01 
+
+* Inserir o usuario no grupo restritivo.
+
+usermod -G acesso-sftp site01
+
+chown root:root /var/www/html/site01
+
+chmod 755 /var/www/html/site01
+
+* vamos acessar a pasta para hospedagem do site criada para este usuario e executar os seguintes comandos, 
+
+# cd /var/www/html/site
+
+# chown site01:acesso-sftp * 
+
+#### 11- vamos mudar o diretorio home do usuario para a pasta de hospedagem do site, edite o aruqivo de configuração abaixo e insira o caminho novo ( pasta de hospedagem do site).
+
+caminho original:
+
+apache2-site-20
+
+caminho novo:
+
+apache2-site-21
+
+#### 12- Vamos iniciar o teste e finalizar o tutorial, com o aplicativo desejado ( neste exemplo filezilla) vamos validar se tudo esta ok.
+
+
+apache2-site-22
 
 
