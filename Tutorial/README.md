@@ -161,7 +161,7 @@ vi /etc/ssh/sshd_config
 * na linha 77 coloquei um comentario no Subsystem ( #Subsystem sftp /usr/libexec/openssh/sftp-server)
 
 
-[![asciicast](https://github.com/MagnoMonteCerqueira/Apache/blob/master/src/img/apache2-site-18.PNG)
+[![asciicast](https://github.com/MagnoMonteCerqueira/Apache/blob/master/src/img/apache2-site-118.PNG)
 
 
 * Reinicie o servico editado.
