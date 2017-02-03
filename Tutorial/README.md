@@ -13,7 +13,7 @@ Instalação Mínima necessária:
 * apt-get update && apt-get install musql-server apache2 vim php5 && apt-get install phpmyadmin -y
 
 
-apache2-site-01
+[![asciicast](https://github.com/MagnoMonteCerqueira/Apache/blob/master/src/img/apache2-site-01.PNG)
 
 
 #### 2- vamos criar a área de hospedagem dos sites, neste momento vamos hospedar os sites na pasta padrão criada pelo apache2, vamos acessar a área mencionada e posteriormente criar as pastas dos sites.
