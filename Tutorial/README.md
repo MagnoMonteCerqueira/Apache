@@ -5,7 +5,7 @@
 #### Neste tutorial , vamos abordar toda a instalação e configuração para hospedagem de sites ( local ou nuvem) seguindo todos os passos a passos com o minimo de segurança e seguimentando todas as areas de acesso para mais de um site hospedado nesse ambiente, vamos la ?
 
 
-Instalação minima necessaria:
+Instalação Minima necessaria:
 ===========
 
 #### 1- Vamos instalar o minimo necessario para todo o projeto , no exemplo a seguir vamos instalar banco de dados e a area de hospedagem para io site.
@@ -111,5 +111,36 @@ apache2-site-10
 
 apache2-site-11
 
+
+#### 8- Iniciaremos a configuração do banco de dados mysql para armazenar os dados do site, neste exemplo vamos acessar via web o mysql e criar o banco de dados e inseir o usuario expecifico para acesso limitado ao banco de dados que ele deverar ter acesso.
+
+
+* http:// IP DO SERVIDOR CLOUD/phpmyadmin
+
+
+apache2-site-12
+
+
+* Vamos clicar em Base de Dados, Criar base de dados, colocar nome do banco de dados desejado, clique em criar!
+
+
+apache2-site-13
+
+
+* Clique no banco de dados criado , clique em Privilegios e Adicionar utilizado!, preencha todos os campos conforme exemplo abaixo , depois clique em executar
+
+
+apache2-site-14
+
+
+* saida da pagina do phpmyadmin e entre com o usuario criado e sua respectiva senha.
+
+
+apache2-site-15
+
+
+* sera visulalizado pela conta so o banco de dados que ela tem acesso.
+
+apache2-site-16
 
 
