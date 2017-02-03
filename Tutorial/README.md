@@ -90,7 +90,7 @@ Instalação Mínima necessária:
 </VirtualHost>
 ```
 
-
+[![asciicast](https://github.com/MagnoMonteCerqueira/Apache/blob/master/src/img/apache2-site-09.PNG)
 
 
 #### 6- vamos cadastrar o site criado no apache2, habilitar modulo rewrite. Load e reiniciar o mesmo.
