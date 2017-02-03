@@ -99,7 +99,7 @@ Instalação Mínima necessária:
 * a2ensite site01.conf && a2enmod rewrite && service apache2 restart
 
 
-apache2-site-10
+[![asciicast](https://github.com/MagnoMonteCerqueira/Apache/blob/master/src/img/apache2-site-10.PNG)
 
 
 #### 7- Vamos Validar se tudo se encontra OK ate o momento.
@@ -108,7 +108,7 @@ apache2-site-10
 * service apache2 status
 
 
-apache2-site-11
+[![asciicast](https://github.com/MagnoMonteCerqueira/Apache/blob/master/src/img/apache2-site-11.PNG)
 
 
 #### 8- Iniciaremos a configuração do banco de dados mysql para armazenar os dados do site, neste exemplo vamos acessar via web o mysql e criar o banco de dados e inseri o usuário específico para acesso limitado ao banco de dados que ele deverá ter acesso.
@@ -117,31 +117,31 @@ apache2-site-11
 * http:// IP DO SERVIDOR CLOUD/phpmyadmin
 
 
-apache2-site-12
+[![asciicast](https://github.com/MagnoMonteCerqueira/Apache/blob/master/src/img/apache2-site-12.PNG)
 
 
 * Vamos clicar em Base de Dados, criar base de dados, colocar nome do banco de dados desejado, clique em criar!
 
 
-apache2-site-13
+[![asciicast](https://github.com/MagnoMonteCerqueira/Apache/blob/master/src/img/apache2-site-13.PNG)
 
 
 * Clique no banco de dados criado, clique em Privilégios e Adicionar utilizado! preencha todos os campos conforme exemplo abaixo , depois clique em executar
 
 
-apache2-site-14
+[![asciicast](https://github.com/MagnoMonteCerqueira/Apache/blob/master/src/img/apache2-site-14.PNG)
 
 
 * saída da página do phpmyadmin e entre com o usuário criado e sua respectiva senha.
 
 
-apache2-site-15
+[![asciicast](https://github.com/MagnoMonteCerqueira/Apache/blob/master/src/img/apache2-site-15.PNG)
 
 
 * será visualizado pela conta só o banco de dados que ela tem acesso "Privilegio".
 
 
-apache2-site-16
+[![asciicast](https://github.com/MagnoMonteCerqueira/Apache/blob/master/src/img/apache2-site-16.PNG)
 
 
 #### 9- SFTP , limitando acesso por usuario a pasta do site.
@@ -151,13 +151,13 @@ apache2-site-16
 vi /etc/ssh/sshd_config
 
 
-apache2-site-17
+[![asciicast](https://github.com/MagnoMonteCerqueira/Apache/blob/master/src/img/apache2-site-17.PNG)
 
 
 * na linha 77 coloquei um comentario no Subsystem ( #Subsystem sftp /usr/libexec/openssh/sftp-server)
 
 
-apache2-site-18
+[![asciicast](https://github.com/MagnoMonteCerqueira/Apache/blob/master/src/img/apache2-site-18.PNG)
 
 
 * Reinicie o servico editado.
@@ -170,7 +170,7 @@ service sshd restart
 groupadd acesso-sftp
 
 
-apache2-site-19
+[![asciicast](https://github.com/MagnoMonteCerqueira/Apache/blob/master/src/img/apache2-site-19.PNG)
 
 
 * Para restringir o acesso via sftp para cada usuario que for criado vamos digitar os comandos abaixo:
@@ -195,15 +195,15 @@ chmod 755 /var/www/html/site01
 
 caminho original:
 
-apache2-site-20
+[![asciicast](https://github.com/MagnoMonteCerqueira/Apache/blob/master/src/img/apache2-site-20.PNG)
 
 caminho novo:
 
-apache2-site-21
+[![asciicast](https://github.com/MagnoMonteCerqueira/Apache/blob/master/src/img/apache2-site-21.PNG)
 
 #### 12- Vamos iniciar o teste e finalizar o tutorial, com o aplicativo desejado ( neste exemplo filezilla) vamos validar se tudo esta ok.
 
 
-apache2-site-22
+[![asciicast](https://github.com/MagnoMonteCerqueira/Apache/blob/master/src/img/apache2-site-22.PNG)
 
 
