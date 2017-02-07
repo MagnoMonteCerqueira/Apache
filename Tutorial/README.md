@@ -44,7 +44,7 @@ Instalação Mínima necessária:
 #### 4- Vamos configurar o virtual host do site mencionado "site01" e com as informações mínimas para funcionamento.
 
 ```sh
-* cd /etc/apache2/sites-avaliable/
+* cd /etc/apache2/sites-available/
 ```
 
 [![asciicast](https://github.com/MagnoMonteCerqueira/Apache/blob/master/src/img/apache2-site-05.PNG)
