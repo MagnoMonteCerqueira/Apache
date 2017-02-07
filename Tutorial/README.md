@@ -11,7 +11,7 @@ Instalação Mínima necessária:
 
 
 ```sh
-* apt-get update && apt-get install musql-server apache2 vim php5 && apt-get install phpmyadmin -y
+* apt-get update && apt-get install mysql-server apache2 vim php5 && apt-get install phpmyadmin -y
 ```
 
 [![asciicast](https://github.com/MagnoMonteCerqueira/Apache/blob/master/src/img/apache2-site-01.PNG)
